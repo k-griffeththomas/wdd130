@@ -1,0 +1,64 @@
+.callout {
+	max-width: 400px;
+  margin: 10px;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 15px;
+  background-color: steelblue;
+  color: white
+}
+
+.callout img {
+	float: right;
+  margin: 7px;
+  border:  2rem solid black;
+  padding: 3px;
+  background-color: tan;
+  width: 23%;
+  height: auto
+}
+
+blockquote {
+	margin: 0;
+  
+}
+
+cite {
+	display:block;
+  border-top: 6px dotted white;
+  padding-top: 5px;
+  text-align: right;
+  font-size: smaller;
+  
+}
+/* SOLUTION EXAMPLE */
+/* .callout {
+	width: 400px;
+	margin: 10px;
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 15px;
+	background-color: #247;
+	color: #fff;
+} */
+
+/* .callout img {
+	float: right;
+	margin: 0 0 10px 15px;
+	border: 1px solid #000;
+	padding: 3px;
+	background-color: #bbb;
+	width: 100px;
+	height: auto;
+	
+} */
+
+/* blockquote {
+	margin: 0;
+}
+
+cite {
+	display: block;
+	border-top: 1px dotted #fff;
+	padding-top: 3px;
+	text-align: right;
+	font-size: smaller;
+} */
