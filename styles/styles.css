@@ -1,3 +1,5 @@
+/* adding a comment for things to get edited*/
+
 nav {
   background-color: steelblue;
   padding: 10px;
@@ -42,10 +44,9 @@ aside img {
 p{
   padding: 0;
 }
-/*top m & b to separate from the main element content
+/*top m & b to separate from the main element content*/
 footer {
   margin-top: 1rem;
   border-top: 1rem solid #000;
   text-align: center;
 }
-/* adding a comment for things to get edited*/
