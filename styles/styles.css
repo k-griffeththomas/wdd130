@@ -37,6 +37,7 @@ main {
 
 aside {
   width: 20rem;
+  position: relative;
   text-align: center;
 }
 /* edited aside, it didn't commit so I am adding a comment to commit */
