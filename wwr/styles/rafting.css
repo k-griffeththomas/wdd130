@@ -106,13 +106,14 @@ h1 {
 article {
   position: absolute;
   background-color: var(--primary-color);
-  opacity: 20%;
+  
 }
+
 
 
 article img {
   float: right;
-  width: 300px;
+  width: 200px;
   height: auto;
   
 }
