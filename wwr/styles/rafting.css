@@ -3,7 +3,7 @@
 :root {
   margin: 0;
   padding: 0;
-  --primary-color: #1BA595;   /*(teal);*/
+  --primary-color: #1BA595; /*rgba(27,165,149)(teal);*/
   --secondary-color: 	#eecb6c; /*(yellow)*/
   --accent1-color: #917555; /*(brown)*/
   --accent2-color:  #bab8b6; /*(gray)*/
@@ -16,8 +16,8 @@
   --nav-link-color: var(--accent1-color);
   --nav-hover-link-color: var(--primary-color);
   --nav-hover-background-color: var(--secondary-color);
-  width: 700px;
-  height: auto;
+  /* width: 700px;
+  height: auto; */
 }
   
 h1, h2, h3, h4, h5, h6 {
@@ -28,7 +28,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3rem;
-  background-color: var(--secondary-color) ;
+  background-color: var(--secondary-color);
+  position: absolute;
+  bottom: 100px;
+  
 }
 
 h2 {
@@ -98,15 +101,10 @@ nav a:hover {
   position: relative;
 }
 
-h1 {
-  position: absolute;
-  
-}
 
 article {
   position: absolute;
   background-color: var(--primary-color);
-  
 }
 
 
