@@ -14,8 +14,8 @@ body {
   --accent2-color:  #DOC9BE; /*(gray)*/
   --accent3-color:  #F3EEEO; /*(natural)*/
 
-  --heading-font: 'IBM Plex Serif', serif;
-  --paragraph-font:'Palaquin Dark', sans serif;
+  --heading-font: 'Palaquin Dark', sans serif;
+  --paragraph-font:'IBM Plex Serif', serif;
 
   --nav-background-color: var(--accent1-color);
   --nav-link-color: var(--primary-color);
