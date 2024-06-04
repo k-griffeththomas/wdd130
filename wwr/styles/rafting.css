@@ -272,7 +272,9 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2.5rem;
-  justify-content: center;
+  justify-content: center;padding: 3rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 grid h2 {
@@ -288,7 +290,7 @@ grid h2 {
 .leftcolumn img {
   width: 25rem;
   margin: 0 auto;
-  border-top: solid var(--secondary-color)
+  border-top: 2px solid var(--secondary-color)
 }
 
 .contactinfo {
@@ -299,7 +301,7 @@ grid h2 {
   grid-template-rows: 1fr;  */
   justify-content: flex-start;
   align-items: center;
-  border-bottom: 1px solid var(--secondary-color)
+  border-bottom: 2px solid var(--secondary-color)
 }
 
 iframe {
