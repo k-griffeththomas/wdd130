@@ -81,6 +81,7 @@ header a:hover {
   border-radius: 5%;
 }
 
+/* -------- ABOUT US ------------- */
 
 /* HERO DIV */
 
@@ -219,3 +220,162 @@ footer img {
   margin: auto;
 
 }
+
+/* -------------- CONTACT US ---------------- */
+
+/* HEADING */
+
+.heading h3 {
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.heading h4 {
+  color: var(--accent1-color);
+  margin: 3px;
+}
+
+.team {
+  margin: 2rem 0;
+}
+
+/* .team h2 {
+  text-align: center;
+} */
+
+.team img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 1px solid;
+
+}
+
+h4 {
+  font-size: .9rem;
+}
+
+.team div {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  font-size: small;
+}
+
+/* CONTACT INFORMATION */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2.5rem;
+  justify-content: center;
+}
+
+grid h2 {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.grid p {
+  font-size: smaller;
+}
+
+/* LEFT COLUMN - Contact Information */
+
+.leftcolumn img {
+  width: 25rem;
+  margin: 0 auto;
+  border-top: solid var(--secondary-color)
+}
+
+.contactinfo {
+  /* display: grid; */
+  padding: 10px;
+  margin: 2rem auto;
+  /* grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;  */
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid var(--secondary-color)
+}
+
+iframe {
+  border: 3px solid var(--primary-color);
+  margin: 1rem 4rem;
+  border-radius: .5rem;
+}
+
+
+
+/* RIGHT COLUMN - Contact Us Form */
+
+form {
+  display: grid;
+  padding: 0;
+  background-color: rgba(27,165,149, .3); 
+  border: 2px solid var(--primary-color);
+  border-radius: .5rem;
+  
+}
+
+
+fieldset {
+  border: none;
+  margin: 0 5px;
+}
+
+.radio {
+  margin: 10px 4px;
+  border-top: 1px solid var(--primary-color);
+  padding: .5rem;
+  vertical-align: center;
+}
+
+input[type="radio"] {
+  margin: 0;
+  width: 1em;
+  height: 1em;
+  vertical-align: center;
+}
+
+.radio label {
+  font-size: .65rem;
+}
+
+input, textarea {
+  width: 95%;
+  margin: .5rem auto;
+  padding: .5rem;
+  color: lightgray;
+}
+
+.checkbox {
+  display: flex;
+  font-size: .8rem;
+  align-items: center;
+}
+
+.checkbox label {
+  flex:4;
+}
+
+.checkbox input {
+  flex: 1;
+}
+
+button { 
+  width: 7rem;
+  height: 3rem;
+  margin: .5rem;
+  border-radius: .5rem;
+  border: .5px solid;
+  background-color: var(--primary-color);
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
