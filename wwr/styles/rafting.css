@@ -317,7 +317,7 @@ iframe {
 form {
   display: grid;
   padding: 0;
-  background-color: rgba(27,165,149, .3); 
+  background-color: rgba(27,165,149, .2); 
   border: 2px solid var(--primary-color);
   border-radius: .5rem;
   
@@ -441,6 +441,7 @@ button:hover {
   text-align: center;
   text-decoration: none;
   font-size: 18px;
+
 }
 
 .columns li img {
@@ -456,7 +457,85 @@ main section h3 {
   margin-top: 5rem;
 }
 
-/* Change the width of the three columns to 100%
+a {
+  text-decoration: none;
+  color: var(--primary-color)
+}
+
+a:hover {
+  color: var(--secondary-color)
+}
+/* -----------  HOME ------------*/
+
+.home h1 {
+  background: none;
+  top: 2em;
+  right: 2em;
+  color: white;
+  font-size: 5rem;
+  text-shadow: black 1px 0 10px;
+}
+
+.home a {
+  position: relative;
+  bottom: 9rem;
+  left: 11rem;
+  border: 2px white solid;
+  color: white;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.home a:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.info {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: solid var (--primary-color);
+
+}
+
+info p {
+  text-align: center;
+}
+
+info img {
+  width: 100%;
+  height: auto%;
+}
+
+.newsletter {
+  margin: 2rem;
+  padding: 10px;
+}
+
+.newsletter h2 {
+  padding: 2rem;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.newsletter div {
+  margin: .5rem 2rem;
+  color: var(--primary-color);
+}
+button {
+  margin: 10px 2rem;;
+}
+
+
+/* Change the width of the three columns on Trips to 100%
 (to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
   .columns {
