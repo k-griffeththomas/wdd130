@@ -443,6 +443,19 @@ button:hover {
   font-size: 18px;
 }
 
+.columns li img {
+  float: left;
+  width: 100%;
+  padding: 2px;
+  margin: 2px;
+  
+
+}
+
+main section h3 {
+  margin-top: 5rem;
+}
+
 /* Change the width of the three columns to 100%
 (to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
@@ -451,15 +464,6 @@ button:hover {
   }
 }
 
-.columns li img {
-  float: left;
-  width: 100%;
-  padding: 2px;
-  margin: 2px;
 
-}
 
-main section h3 {
-  margin-top: 5rem;
-}
 
