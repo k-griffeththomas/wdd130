@@ -498,12 +498,9 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  /* grid-template-rows: 1fr 1fr 1fr; */
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  border: solid var (--primary-color);
-
 }
 
 info p {
@@ -512,7 +509,7 @@ info p {
 
 info img {
   width: 100%;
-  height: auto%;
+  height: auto;
 }
 
 .newsletter {
